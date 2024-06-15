@@ -17,3 +17,9 @@
 5) ICMP не отлавливается(
 6) Работает на Windows, Linux, MacOS
 
+# Запуск
+
+1) `cd Lab2`
+2) `docker build . -f .dockerfile -t pmtu`
+3) `docker run -it pmtu`
+4) `python3 ./pmtu_disc.py [host]`
